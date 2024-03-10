@@ -54,9 +54,13 @@ const Index = () => {
               </Tr>
             </Thead>
             <Tbody>
-              {/* Replace with dynamic data */}
+              {}
               <Tr>
-                <Td>Nitzschia palea</Td>
+                <Td>
+                  <Button variant="link" onClick={() => navigate(`/species/nitzschia-palea`)}>
+                    Nitzschia palea
+                  </Button>
+                </Td>
                 <Td>Lake</Td>
                 <Td>20°C</Td>
                 <Td>200 µS/cm</Td>
